@@ -30,7 +30,7 @@ class OscButton extends MovableButton {
       if ( touched ) {
         act();
       }
-    return touched;n
+    return touched;
   }
   void act() {
     OscMessage elMensaje = new OscMessage(addPatt);
